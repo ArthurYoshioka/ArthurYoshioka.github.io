@@ -1,103 +1,46 @@
-# ArthurYoshioka.github.io
-/* Estilos generales */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Marketplace</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Mi Cuenta</a></li>
+      </ul>
+    </nav>
+  </header>
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
+  <section class="hero">
+    <h1>Bienvenido al Marketplace</h1>
+    <p>Encuentra los mejores productos y servicios.</p>
+    <a href="#" class="btn">Explorar</a>
+  </section>
 
-/* Estilos del encabezado */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
+  <section class="products">
+    <h2>Productos Destacados</h2>
+    <div class="product">
+      <img src="product1.jpg" alt="Producto 1">
+      <h3>Nombre del Producto</h3>
+      <p>Descripción del producto.</p>
+      <a href="#" class="btn">Ver Detalles</a>
+    </div>
+    <div class="product">
+      <img src="product2.jpg" alt="Producto 2">
+      <h3>Nombre del Producto</h3>
+      <p>Descripción del producto.</p>
+      <a href="#" class="btn">Ver Detalles</a>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </section>
 
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-}
-
-/* Estilos del héroe */
-.hero {
-  background-color: #f2f2f2;
-  text-align: center;
-  padding: 50px 0;
-}
-
-.hero h1 {
-  font-size: 36px;
-}
-
-.hero p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.btn {
-  display: inline-block;
-  background-color: #333;
-  color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-}
-
-/* Estilos de productos */
-.products {
-  padding: 20px;
-}
-
-.products h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.product {
-  display: inline-block;
-  width: 200px;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-
-.product img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.product h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.product p {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-/* Estilos del pie de página */
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
+  <footer>
+    <p>Derechos de Autor &copy; 2023 Marketplace. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
