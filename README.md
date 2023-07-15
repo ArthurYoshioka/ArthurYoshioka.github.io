@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Marketplace</title>
+  <title>Marketplace de Arthur</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -17,7 +17,7 @@
   </header>
 
   <section class="hero">
-    <h1>Bienvenido al Marketplace</h1>
+    <h1>Bienvenido al Marketplace de Arthur</h1>
     <p>Encuentra los mejores productos y servicios.</p>
     <a href="#" class="btn">Explorar</a>
   </section>
@@ -40,7 +40,7 @@
   </section>
 
   <footer>
-    <p>Derechos de Autor &copy; 2023 Marketplace. Todos los derechos reservados.</p>
+    <p>Derechos de Autor &copy; 2023 Marketplace de Arthur. Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
